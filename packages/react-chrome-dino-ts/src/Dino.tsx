@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
+import './Dino.css'
 import { DinoScript } from './DinoScript'
 import { Resources } from './Resources'
-import './Dino.css'
 
 export interface DinoGameProps {
   /**
@@ -53,7 +53,7 @@ const DinoGame = React.forwardRef<HTMLDivElement, DinoGameProps>(function DinoGa
           <div className="interstitial-wrapper instructions">
             {instructions || (
               <p>
-                Press the <span className="kbd">spacebar</span> to start the game and to jump.
+                Oyunu Başlatmak İçin <span className="kbd">Boşluk </span> tuşuna basın
               </p>
             )}
           </div>
